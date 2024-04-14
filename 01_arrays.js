@@ -26,11 +26,11 @@ console.log(myarr);
 console.log("A ", myarr);
 
 const newarr = myarr.slice(1,3)
-console.log(newarr);
-console.log("A ", myarr);
+console.log(newarr); // not extract from original array  
+console.log("A ", myarr); 
 
 const newarr2 = myarr.splice(1,3)
 console.log(newarr2);
-console.log("B ", myarr);  //extract from original array and 
+console.log("B ", myarr);  //extract from original array 
 
 
