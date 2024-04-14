@@ -25,9 +25,21 @@ console.log(myarr);
 
 console.log("A ", myarr);
 
+myarr.unshift(9)
+console.log( myarr);
+
+myarr.shift()
+console.log( myarr);
+
+
+
+
 const newarr = myarr.slice(1,3)
 console.log(newarr); // not extract from original array  
 console.log("A ", myarr); 
+
+
+
 
 const newarr2 = myarr.splice(1,3)
 console.log(newarr2);
